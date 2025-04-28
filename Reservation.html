@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Réservation</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+<header>
+	<h1>Réservation d'une table</h1>
+	<nav>
+		<ul>
+			<li><a href="index.html">Acceuil</a></li>
+			<li><a href="Menu.html">Menu</a></li>
+			<li><a href="reservation.html" class="active">reservation</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+			<li><a href="à propos.html">à propos</a></li>
+			<li><a href="Aide.html">Aide</a></li>
+		</ul>
+	</nav>
+</header>
+<div class="">
+	<form action="reservation.html" class="contact-form" method="post">
+		<label for="name">Nom:</label><br>
+		<input class="input" type="text".id="name"name="name" required><br>
+		<label for="date">Date:</label><br>
+		<input class="input" type="date".id="date"name="date" required><br>
+		<label for="time">Heure:</label><br>
+		<input class="input" type="time".id="time"name="time" required><br>
+		<label for="plan"> Plan choisi</label><br>
+			<select class="input">
+			<option>Tortilla</option>
+			<option>Salade jeunes pousses</option>
+			<option>Salade</option>
+			<option>Aïoli ou Houmous à la pistache</option>
+			<option>Huile d'olive</option>
+			<option>Jambon blanc</option>
+			<option>Polenta</option>
+			<option>Pavé de mariage confit</option>
+			<option>Coulis de poivron</option>
+			<option>Mini poivron fumé ou poitrine de porc rotie</option>
+			<option>Mijoté de lentilles</option>
+			<option>Asperge blanche</option>
+			<option>Jus réduit</option>
+			<option>Poisson grille</option>
+			<option>Riz aux légumes</option>
+			<option>TArtelette framboise meringuée ou Riz au lit</option>
+			<option>Marmelade fruits rouge</option>
+			<option>Noisettes torréfiées</option>
+		</select><br>
+		<label for="People"> Nombre de personnes</label>
+		<select class="input">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>
+			<option>13</option>
+			<option>14</option>
+			<option>15</option>
+			<option>16</option>
+			<option>17</option>
+			<option>18</option>
+			<option>19</option>
+			<option>20</option>
+			<option>21</option>
+			<option>22</option>
+			<option>23</option>
+			<option>24</option>
+			<option>25</option>
+		</select><br>
+		<input type="submit" value="Resever" onclick="reserver()" class="btn" name="">
+		<br>
+	</form>
+</div>
+<footer>
+	<p>& copy: 2025 Réstaurat BTW.Tous droits reservés.</p>
+</footer>
+<script src="Scripts/app.js"></script>
+</body>
+</html>
